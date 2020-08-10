@@ -1,7 +1,7 @@
 ---
 title: "Introduction to R Programming"
-author: "Sana Rasheed"
-date: "May 14, 2020"
+author: "Rizwan Yahya"
+date: "August 10, 2020"
 output: html_document
 ---
 
@@ -24,26 +24,27 @@ output: html_document
 
 ```{r }
 #### Start solution ####
+name = c("r", "i", "z", "w", "a", "n") 
 ```
 
 
 ```{r }
-
+paste(name, collapse = '')
 ```
 
 
 ```{r }
-
+num = c(100:120)
 ```
 
 
 ```{r }
-
+(m <- matrix(c(2, 4, 6, 8, 10, 12, 14, 16, 18), nrow = 3))
 ```
 
 
 ```{r }
-
+names <- list(a="one", b="two", c="three")
 ```
 
 
